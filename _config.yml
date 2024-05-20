@@ -113,52 +113,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Red Raccoon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "This is to be edited"
+  location         : "Everywhere but mostly in S.Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:support@redraccoon.kr"
+    - label: "Offical Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
+      url: "https://redraccoon.kr"
+    - label: "Red Raccoon"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/RedRaccoonCommunity"
+    - label: "Inflern"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
+  - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:support@redraccoon.kr"
+    - label: "Offical Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://redraccoon.kr"
+    - label: "Red Raccoon"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
+      url: "https://github.com/RedRaccoonCommunity"
+    - label: "Inflern"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88"
 
 
 # Reading Files
