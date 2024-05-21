@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
@@ -26,7 +26,7 @@ url: "https://blog.redraccoon.kr"
 #baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/Black logo - no background.png"
+logo                     : "/assets/images/Color logo - no background.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "레드라쿤"
-  avatar           : "/docs/assets/images/Color logo with background.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Color logo - no background.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "레드라쿤은 대한민국 사이버 보안 커뮤니티로 여러가지 사이버 보안 해킹 기술 강의 뿐만 아니라 재밌는 사이버 보안 주제/팁/노하우 등을 같이 공유하고, 더 나아가 사이버 보안에 관심이 있으신 모든 분들을 위한 커뮤니티를 목표로 합니다."
   location         : "대한민국"
   email            :
