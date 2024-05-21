@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Red Raccoon Communityy"
+title                    : "Red Raccoon Community"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Red Raccoon"
@@ -113,23 +113,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Red Raccoon"
+  name             : "레드라쿤"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is to be edited"
-  location         : "Everywhere but mostly in S.Korea"
+  bio              : "레드라쿤은 대한민국 사이버 보안 커뮤니티로 여러가지 사이버 보안 해킹 기술 강의 뿐만 아니라 재밌는 사이버 보안 주제/팁/노하우 등을 같이 공유하고, 더 나아가 사이버 보안에 관심이 있으신 모든 분들을 위한 커뮤니티를 목표로 합니다."
+  location         : "대한민국"
   email            :
   links:
-    - label: "Email"
+    - label: "이메일"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@redraccoon.kr"
-    - label: "Offical Website"
+    - label: "공식 웹사이트"
       icon: "fas fa-fw fa-link"
       url: "https://redraccoon.kr"
-    - label: "Red Raccoon"
+    - label: "레드라쿤 GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/RedRaccoonCommunity"
-    - label: "Inflern"
-      icon: "fab fa-fw fa-instagram"
+    - label: "강의"
+      icon: "fab fa-fw fa-book"
       url: "https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88"
 
 # Site Footer
