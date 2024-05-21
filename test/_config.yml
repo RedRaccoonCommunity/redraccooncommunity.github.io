@@ -96,7 +96,7 @@ author:
   bio              : "레드라쿤 커뮤니티는 대한민국 보안 및 해킹에 대한 열정을 가진 모든 사람들과 소통하기 위해 만들어졌습니다."
   location         : "Everywhere"
   links:
-    - label: "Your Website"
+    - label: "Your Websitess"
       icon: "fas fa-fw fa-link"
       url: "https://your-site.com"
     - label: "Twitter"
