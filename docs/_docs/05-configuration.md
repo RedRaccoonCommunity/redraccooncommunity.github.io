@@ -890,7 +890,7 @@ Used as the defaults for defining what appears in the author sidebar.
 
 ```yaml
 author:
-  name     : "Your Name"
+  name     : "test3"
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Somewhere, USA"
