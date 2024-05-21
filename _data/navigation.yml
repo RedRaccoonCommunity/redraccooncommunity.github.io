@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: "../_pages/about.md"
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
