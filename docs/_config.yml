@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/docs/assets/images/michael-rose.jpg"
+  avatar           : "/docs/assets/images/Color logo - no background.png"
   bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
   location         : "Buffalo, NY"
   links:
