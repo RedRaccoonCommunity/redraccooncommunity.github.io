@@ -11,7 +11,7 @@ main:
   - title: "Courses"
     url: https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88
     target: _blank
-    
+
 sidebar-blue:
   - title: "블루팀"
     children:
@@ -75,8 +75,6 @@ sidebar-blue:
             url: /
           - title: "Incident Response Drills (사고 대응 훈련)"
             url: /
-
-
 
 sidebar-red:
   - title: "레드팀"
@@ -196,7 +194,32 @@ sidebar-red:
           - title: "Service Stop (서비스 중지)"
             url: /
 
-
-
-
-breadcrumbs: true  # disabled by default
+sidebar-inteligence:
+  - title: "사이버 보안 인텔리전스"
+    children:
+      - title: "Threat Intelligence (위협 인텔리전스)"
+        children:
+          - title: "Indicator Collection (지표 수집)"
+            url: /
+          - title: "Threat Analysis (위협 분석)"
+            url: /
+          - title: "Threat Hunting (위협 헌팅)"
+            url: /
+          - title: "Reporting (보고)"
+            url: /
+      - title: "Adversary Tactics, Techniques, and Procedures (적대적 전술, 기술, 절차)"
+        children:
+          - title: "Tactics (전술)"
+            url: /
+          - title: "Techniques (기술)"
+            url: /
+          - title: "Procedures (절차)"
+            url: /
+      - title: "Open Source Intelligence (오픈 소스 인텔리전스)"
+        children:
+          - title: "Data Collection (데이터 수집)"
+            url: /
+          - title: "Analysis (분석)"
+            url: /
+          - title: "Integration (통합)"
+            url: /
