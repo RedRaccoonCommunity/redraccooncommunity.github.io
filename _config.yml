@@ -121,7 +121,7 @@ author:
   links:
     - label: "공식 웹사이트"
       icon: "fas fa-fw fa-link"
-      url: "https://redraccoon.kr"
+      url: "https://www.redraccoon.kr"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@redraccoon.kr"
