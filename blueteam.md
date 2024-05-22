@@ -1,7 +1,6 @@
 ---
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
-layout: single
+  title: "블루팀"
+  nav: sidebar-blue
 permalink: /blue/
 ---
