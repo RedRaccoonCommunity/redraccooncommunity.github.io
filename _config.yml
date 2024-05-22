@@ -119,12 +119,12 @@ author:
   location         : "대한민국"
   email            :
   links:
+    - label: "공식 웹사이트"
+      icon: "fas fa-fw fa-link"
+      url: "https://redraccoon.kr"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@redraccoon.kr"
- #   - label: "공식 웹사이트"
- #     icon: "fas fa-fw fa-link"
- #     url: "https://redraccoon.kr"
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/DPJh4TA6sv"
