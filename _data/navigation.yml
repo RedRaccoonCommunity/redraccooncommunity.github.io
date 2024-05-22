@@ -80,6 +80,7 @@ sidebar-red:
   - title: "레드팀"
     children:
       - title: "Reconnaissance (정찰)"
+        url: "/red/recon"
         children:
           - title: "Active Scanning (활성 스캐닝)"
             url: /
