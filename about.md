@@ -14,39 +14,27 @@ toc_icon: "cog"
 
 # 운영진
 
-**그루트(Groot)**
-
-現 선임 사이버 보안 엔지니어 & 사이버 보안 부트캠프 리드 강사
-
-前 CrowdStrike 선임 사이버 보안 인텔 연구원
-
-前 CyberCX MSSP SOC 팀장, 선임 모의 해커
-
+**그루트(Groot)**<br>
+現 선임 사이버 보안 엔지니어 & 사이버 보안 부트캠프 리드 강사<br>
+前 CrowdStrike 선임 사이버 보안 인텔 연구원<br>
+前 CyberCX MSSP SOC 팀장, 선임 모의 해커<br>
 블루팀, 레드팀, 인텔 연구원등 다양한 도메인에서 경력 보유 
 
-➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:groot@redraccoon.kr)
-
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:groot@redraccoon.kr)<br>
 ➡  [<i class="fas fa-envelope fa-fw"></i> 링크드인](mailto:https://www.linkedin.com/in/ace-l-bab75927a/) 
 
-**초이(Choi)**
-
-Fortune 100에서 전세계 기업들을 상대로 내부망, 외부망, 웹 모의해킹 업무를 진행
-
-Defcon 30, Defcon 31에서 블루팀 워크샵 + 레드팀 워크샵 제작 및 진행
-
-한국 최초의 오펜시브 시큐리티 오픈소스 위키피디아 운영 (레드팀.com)
-
+**초이(Choi)**<br>
+Fortune 100에서 전세계 기업들을 상대로 내부망, 외부망, 웹 모의해킹 업무를 진행<br>
+Defcon 30, Defcon 31에서 블루팀 워크샵 + 레드팀 워크샵 제작 및 진행<br>
+한국 최초의 오펜시브 시큐리티 오픈소스 위키피디아 운영 (레드팀.com)<br>
 Global CPTC(Collegiate Penetration Testing Competition) 2020 - 1등, 팀장
 
-자격증: OSCP, CRTO, CRTL, EvilGinx2 피싱 마스터리 코스, Breaching the Cloud
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:choi@redraccoon.kr)<br> 
 
-➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:choi@redraccoon.kr) 
-
-**민(Min)** 
-
-➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:min@redraccoon.kr) 
+**민(Min)**<br> 
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:min@redraccoon.kr)<br> 
 
 🤝 레드라쿤 커뮤니티 참여하기
-[<i class="fab fa-discord fa-fw"></i> 디스코드](https://discord.gg/FGeh8Uk9Dg)
-[<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:support@redraccoon.kr)
+[<i class="fab fa-discord fa-fw"></i> 디스코드](https://discord.gg/FGeh8Uk9Dg)<br>
+[<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:support@redraccoon.kr)<br>
 [<i class="fab fa-github fa-fw"></i> GitHub](https://github.com/redraccooncommunity)
