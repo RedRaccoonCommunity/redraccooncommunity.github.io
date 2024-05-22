@@ -1,6 +1,7 @@
 ---
 sidebar:
   nav: sidebar-red
+  author_profile: false
 permalink: /red/
 ---
 

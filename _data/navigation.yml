@@ -77,7 +77,6 @@ sidebar-blue:
             url: /
 
 sidebar-red:
-  author_profile: false
   - title: "레드팀"
     children:
       - title: "Reconnaissance (정찰)"
