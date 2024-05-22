@@ -15,14 +15,16 @@ toc_icon: "cog"
 # 운영진
 
 **그루트(Groot):** 관제 & SIEM 엔지니어, MSSP팀 팀장, 인텔, 선임 모의해커 (웹/Code Review), 사이버 보안 선임 연구원 등을 거치며 정보보안 업계에서 다양한 경력을 쌓았습니다.
-LiknedIn
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:groot@redraccoon.kr) 
 
 **초이(Choi):** 내부망/외부망 모의해킹, 윈도우 액티브 디렉토리, 페이로드 생성, 방어 우회, 인프라 구축/관리 등, 정보보안 업계에서 오펜시브 시큐리티 위주의 경력을 쌓고 있습니다.
-
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:choi@redraccoon.kr) 
 
 **민(Min):** 
+➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:min@redraccoon.kr) 
 
 
 🤝 레드라쿤 커뮤니티 참여하기
-➡  디스코드: https://discord.gg/FGeh8Uk9Dg
-➡  이메일: redraccooncorp@gmail.com
+[<i class="fab fa-discord fa-fw"></i> 디스코드](https://discord.gg/FGeh8Uk9Dg)
+[<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:support@redraccoon.kr)
+[<i class="fab fa-github fa-fw"></i> GitHub](https://github.com/redraccoon)
