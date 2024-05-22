@@ -16,6 +16,7 @@ sidebar-blue:
   - title: "블루팀"
     children:
       - title: "Preparation (준비)"
+        url: "/blue/prep/"
         children:
           - title: "Asset Inventory (자산 목록)"
             url: /
@@ -77,6 +78,7 @@ sidebar-blue:
             url: /
 
 sidebar-red:
+  image: "../assets/images/RR Red.png"
   - title: "레드팀"
     children:
       - title: "Reconnaissance (정찰)"
