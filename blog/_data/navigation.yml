@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Discord"
+    url: https://discord.gg/FGeh8Uk9Dg
+    target: _blank
+  - title: "About"
+    url: "/about/"
+  - title: "Posts"
+    url: /posts/
+
