@@ -21,7 +21,7 @@ toc_icon: "cog"
 블루팀, 레드팀, 인텔 연구원등 다양한 도메인에서 경력 보유 
 
 ➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:groot@redraccoon.kr)<br>
-➡  [<i class="fas fa-envelope fa-fw"></i> 링크드인](mailto:https://www.linkedin.com/in/ace-l-bab75927a/) 
+
 
 **초이(Choi)**<br>
 Fortune 100에서 전세계 기업들을 상대로 내부망, 외부망, 웹 모의해킹 업무를 진행<br>
