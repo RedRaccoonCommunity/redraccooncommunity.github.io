@@ -34,7 +34,8 @@ Global CPTC(Collegiate Penetration Testing Competition) 2020 - 1등, 팀장
 **민(Min)**<br> 
 ➡  [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:min@redraccoon.kr)<br> 
 
-🤝 레드라쿤 커뮤니티 참여하기
+🤝 레드라쿤 커뮤니티 참여하기<br>
+[<i class="fab fa-youtube-play fa-fw"></i> 유투브](https://www.youtube.com/@redraccooncorp)<br>
 [<i class="fab fa-discord fa-fw"></i> 디스코드](https://discord.gg/FGeh8Uk9Dg)<br>
 [<i class="fas fa-envelope fa-fw"></i> 이메일](mailto:support@redraccoon.kr)<br>
 [<i class="fab fa-github fa-fw"></i> GitHub](https://github.com/redraccooncommunity)
