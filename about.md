@@ -6,7 +6,7 @@ layout: single
 permalink: /about/
 
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "목차"
 toc_icon: "cog"
 ---
 # 레드라쿤 커뮤니티 

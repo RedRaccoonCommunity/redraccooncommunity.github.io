@@ -8,9 +8,9 @@ main:
 #    url: /categories/
  # - title: "Tags"
  #   url: /tags/
-  - title: "Courses"
-    url: https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88
-    target: _blank
+ # - title: "Courses"
+ #   url: https://www.inflearn.com/course/%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%B4%88
+  #  target: _blank
 
 sidebar-blue:
   - title: "블루팀"
