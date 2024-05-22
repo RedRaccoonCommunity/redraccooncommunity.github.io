@@ -78,8 +78,8 @@ sidebar-blue:
             url: /
 
 sidebar-red:
-  image: "../assets/images/RR Red.png"
   - title: "레드팀"
+    image: "../assets/images/RR Red.png" 
     children:
       - title: "Reconnaissance (정찰)"
         url: "/red/recon/"
