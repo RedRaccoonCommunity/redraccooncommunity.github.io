@@ -2,6 +2,8 @@
 sidebar:
   title: "Sample Title"
   nav: sidebar-sample
+  layout: single
+  permalink: /blue/
 
 sidebar-sample:
   - title: "Parent Page A"
