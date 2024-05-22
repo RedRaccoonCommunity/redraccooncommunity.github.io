@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Blog"
-    url: "/blog"
+    url: "/blog/"
   - title: "Discord"
     url: https://discord.gg/FGeh8Uk9Dg
     target: _blank
