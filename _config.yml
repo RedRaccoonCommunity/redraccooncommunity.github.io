@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "레드라쿤"
   avatar           : "/assets/images/Android.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is a landing page. 레드라쿤은 대한민국 사이버 보안 커뮤니티로 여러가지 사이버 보안 해킹 기술 강의 뿐만 아니라 재밌는 사이버 보안 주제/팁/노하우 등을 같이 공유하고, 더 나아가 사이버 보안에 관심이 있으신 모든 분들을 위한 커뮤니티를 목표로 합니다."
+  bio              : "레드라쿤은 대한민국 사이버 보안 커뮤니티로 여러가지 사이버 보안 해킹 기술 강의 뿐만 아니라 재밌는 사이버 보안 주제/팁/노하우 등을 같이 공유하고, 더 나아가 사이버 보안에 관심이 있으신 모든 분들을 위한 커뮤니티를 목표로 합니다."
   location         : "대한민국"
   email            :
   links:
