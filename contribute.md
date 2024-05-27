@@ -11,5 +11,5 @@ toc_icon: "cog"
 ---
 
 # 2024년
-5/25 - ![레드팀 동향](/_posts/2024-05-25-레드팀-동향.md) - by Choi
-5/27 - ![DNS 개념](/_posts/2024-05-27-DNS-개념.md)- by Groot
+* 5/25 - [레드팀 동향](/_posts/2024-05-25-레드팀-동향.md) - by Choi<br>
+* 5/27 - [DNS 개념](/_posts/2024-05-27-DNS-개념.md)- by Groot
