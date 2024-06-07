@@ -1,11 +1,12 @@
 ---
 layout: single
 author_profile: true
-date: 2024-06-08
 toc: true
 toc_label: "목차"
 toc_icon: "cog"
 title: "OWASP TOP 10 - Broken Access Control"
+categories:
+  - web
 ---
 
 # Web Attack - Broken Access Control 1
