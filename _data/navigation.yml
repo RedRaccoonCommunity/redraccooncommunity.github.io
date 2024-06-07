@@ -4,4 +4,6 @@ main:
     url: https://discord.gg/FGeh8Uk9Dg
   - title: "변경 로그"
     url: "/contribute/"
+  - title : "Tag"
+    url : /tags/
 
