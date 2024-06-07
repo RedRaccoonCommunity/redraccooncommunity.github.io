@@ -17,11 +17,8 @@ title: "OWASP TOP 10 - Broken Access Control"
 
 간단히 말하면 유저가 웹 서비스 인증후(우리는 이걸 로그인이라 부른다)그 유저가 가진 고유의 접근 권한 외 허가되지 않은 다른 접근을 할 수 있게 된면 망가진 접근 제어라 할 수 있다.
 
-![인증 후 유저는 리소스의 접근할 권한이 부여됨](../assets/images/access_control.png)
-
-
 <figure style="text-align:center;">
-  <img src="../assets/images/access_control.png" width="300">
+  <img src="../assets/images/access_control.png" width="700">
   <figcaption style="margin-top: 10px;">인증 후 유저는 리소스의 접근할 권한이 부여됨</figcaption>
 </figure>
 
@@ -29,7 +26,7 @@ title: "OWASP TOP 10 - Broken Access Control"
 아래 다이어그램으로 살펴보자. 
 
 <figure style="text-align:center;">
-  <img src="../assets/images/broken_access_control_white.png" alt="Your Image Alt Text" width="700">
+  <img src="../assets/images/broken_access_control_white.png" width="700">
   <figcaption style="margin-top: 10px;">랜덤 유저가 관리자 패널에 접근 가능한 "잘못된 접근" 제어의 예</figcaption>
 </figure>
 
@@ -47,7 +44,7 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 수평 접근 권한은 수평적 권한을 가진 유저 사이는 접근 권한을 뜻한다.아래 다이어그램을 살펴보자. 동일한 레벨의 유저인 유저 A와 유저B 사이에도 접근이 제한된다. 즉, 한 사용자가 다른 사용자의 리소스에 접근하지 못하도록 하는 접근 제어 방식이다.
 
 <figure style="text-align:center;">
-  <img src="../assets/images/access_control_type_white.png" alt="Your Image Alt Text" width="500
+  <img src="../assets/images/access_control_type_white.png" width="500
   ">
   <figcaption style="margin-top: 10px;">수직 접근 제어와 수평 접근 제어의 차이</figcaption>
 </figure>
@@ -60,7 +57,7 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 마지막으로 문맥 종속 접근 권한은 사용자의 환경 또는 상황에 따라 접근을 제어한다. 예를 들어, 사용자가 특정 위치에 있거나 특정 시간에만 특정 자원에 액세스할 수 있도록 한다. 예를 들어 User A는 로그인 후 일정 시간이 지나면 이체 기능을 사용할 수 없게된다. 즉, 시간이라는 문맥에 종속되어 조건적으로 접근이 제한되게 된다. 
 
 <figure style="text-align:center;">
-  <img src="../assets/images/context_control_white.png" alt="Your Image Alt Text" width="500">
+  <img src="../assets/images/context_control_white.png" width="500">
   <figcaption style="margin-top: 10px;">문백 종속 접근 권한</figcaption>
 </figure>
 
@@ -204,6 +201,10 @@ Accept-Language: en-US,en;q=0.9
 Cookie: session=ABC123
 Connection: close
 ```
+
+- 성공시 200 OK: admin 권한 접근 우회하여 admin/deleteUser 기능 접근 가능.
+- 실패시 403 Forbidden: 접근 불가.
+
 **HTTP Response**
 ```
 HTTP/1.1 200 OK
