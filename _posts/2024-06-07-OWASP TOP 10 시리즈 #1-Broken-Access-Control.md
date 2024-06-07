@@ -6,8 +6,6 @@ toc: true
 toc_label: "목차"
 toc_icon: "cog"
 title: "OWASP TOP 10 - Broken Access Control"
-categories:
-  - web
 ---
 
 # Web Attack - Broken Access Control 1
@@ -20,7 +18,6 @@ categories:
 
 ![인증 후 유저는 리소스의 접근할 권한이 부여됨](../assets/images/access_control.png)
 
-![test](../assets/images/call-book.png)
 
 <figure style="text-align:center;">
   <img src="../assets/images/access_control.png" width="300">
