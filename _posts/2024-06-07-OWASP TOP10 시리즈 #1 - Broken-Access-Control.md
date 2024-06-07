@@ -32,13 +32,13 @@ toc_icon: "cog"
 
 간단히 말해, 우리집 현관문을 지나가던 나그네가 들락날락하는 상황이라 이해하면 된다. 이렇게 잘못된 접근 제어로 인해 발생하는 잘못된 접근 취약점을 Broken Access Control이라 부른다. 참고로 한국어로는 "잘못된 접근 제어"라고 부르겠다. (I don't know it just makes sense 잘못된?)
 
-## Access Control의 종류
+## Access Control 종류
 Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control의 종류에 대해 알아보자. Access Control의 종류는 크게 세 가지 권한으로 분류할 수 있다.
 
-1. 수직 접근 권한 (Vertical Access Control)
+### 1. 수직 접근 권한 (Vertical Access Control)
 수직 접근 권한은 수직적 권한을 가진 유저 사이의 접근 권한을 뜻한다. 아래 다이어그램을 살펴보자. 유저 A는 관리자 권한을 가진 Admin 유저의 대한 접근 제어 권한이 없지만 반대로 Admin은 유저들(A/B)의 데이터에 접근 가능하다. 말 그대로 수직적 (유저 종류 - 보통 유저 vs 관리자 유저) 관계에 따른 접근 제어 방식이다.
 
-2. 수평 접근 권한 (Horizontal Access Control)
+### 2. 수평 접근 권한 (Horizontal Access Control)
 수평 접근 권한은 수평적 권한을 가진 유저 사이는 접근 권한을 뜻한다.아래 다이어그램을 살펴보자. 동일한 레벨의 유저인 유저 A와 유저B 사이에도 접근이 제한된다. 즉, 한 사용자가 다른 사용자의 리소스에 접근하지 못하도록 하는 접근 제어 방식이다.
 
 <figure style="text-align:center;">
@@ -50,7 +50,7 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 
 따라서 수직 접근 권한은 상위 권한을 가진 사용자가 하위 권한을 가진 사용자의 데이터에 접근할 수 있도록 하여, 관리와 감독의 목적으로 사용되는 접근 제어 방식이며 수평 접근 권한은 동일한 권한을 가진 사용자들 간의 상호 접근을 제한함으로써, 사용자 간의 데이터를 보호하는 접근 제어 방식이다. 
 
-3. 문맥 종속 접근 권한 (Context-Dependent Access Control):
+### 3. 문맥 종속 접근 권한 (Context-Dependent Access Control):
 
 마지막으로 문맥 종속 접근 권한은 사용자의 환경 또는 상황에 따라 접근을 제어한다. 예를 들어, 사용자가 특정 위치에 있거나 특정 시간에만 특정 자원에 액세스할 수 있도록 한다. 예를 들어 User A는 로그인 후 일정 시간이 지나면 이체 기능을 사용할 수 없게된다. 즉, 시간이라는 문맥에 종속되어 조건적으로 접근이 제한되게 된다. 
 
@@ -60,7 +60,7 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 </figure>
 
 
-## Access Control의 보안 모델
+## Access Control 보안 모델
 접근 제어 종류에 이어 접근 제어 보안 모델에 대해 알아보자. 접근 제어 모델은 간단히 말해 유저와 리소스간의 접근 제어를 어떻게 부여하고 관리할지에 대한 방법을 의미한다. 
 
 1. DAC (Discretionary Access Control)
@@ -106,7 +106,6 @@ def access_resource(user_id, resource_id):
 ```
 위 코드를 살펴보면 유저가 본인 리소스에 대한 접근을 확인하기 위해 유저 ID만 확인한다. 따라서 유저 A가 본인 리소스에 접근하는 방식으로 다른 유저 B의 리소스에도 접근할 수 있게된다. 
 
-
 ### 수직 접근 제어 취약점 찾아보기
 현 유저 A는 일반 권한을 가진 사용자인가?
 그렇다면 유저 A는 관리자(admin) 권한에 접근할 수 있는가?
@@ -145,8 +144,6 @@ Content-Length: 38
 현 유저 A는 특정 시간대나 장소(Geolocation)에만 특정 리소스에만 접근할 수 있는가?
 그렇다면, 유저 A는 그 특정 시간대에 다른 리소스를 접근할 수 있는가?
 또는, 유저A는 다른 시간대에도 해당 특정 리소스에 접근할 수 있는가?
-
-
 
 ## Access Control 공격 기법 예시
 
@@ -235,8 +232,6 @@ https://portswigger.net/web-security/access-control/lab-referer-based-access-con
 2. Session 토큰 및 Anti-CSRF 토큰 사용: Session 토큰과 Anti-CSRF 토큰을 사용하여 클라이언트 요청 변조를 미리 방지하여 접근 제어 공격을 차단한다. 
 
 3. Security Header: Content Security Policy(CSP) 및 X-Content-Type-Options와 같은 Security Header를 사용하여 위조된 요청을 차단한다.
-
-다음 포스트는 SSRF에 대해 다룬다. 
 
 
 ## Broken Access Control 실전 랩
