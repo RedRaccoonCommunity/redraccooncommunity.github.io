@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 author_profile: true
 
 toc: true
@@ -9,9 +9,7 @@ toc_icon: "cog"
 title: "OWASP TOP 10 - Broken Access Control"
 categories:
   - web
-tags:
-  - web
-  - access
+tags: [web,access]
 ---
 
 # Web Attack - Broken Access Control 1
