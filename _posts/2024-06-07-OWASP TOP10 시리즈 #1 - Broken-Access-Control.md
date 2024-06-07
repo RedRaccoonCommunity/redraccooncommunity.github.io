@@ -35,10 +35,10 @@ toc_icon: "cog"
 ## Access Control 종류
 Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control의 종류에 대해 알아보자. Access Control의 종류는 크게 세 가지 권한으로 분류할 수 있다.
 
-### 1. 수직 접근 권한 (Vertical Access Control)
+### 수직 접근 권한 (Vertical Access Control)
 수직 접근 권한은 수직적 권한을 가진 유저 사이의 접근 권한을 뜻한다. 아래 다이어그램을 살펴보자. 유저 A는 관리자 권한을 가진 Admin 유저의 대한 접근 제어 권한이 없지만 반대로 Admin은 유저들(A/B)의 데이터에 접근 가능하다. 말 그대로 수직적 (유저 종류 - 보통 유저 vs 관리자 유저) 관계에 따른 접근 제어 방식이다.
 
-### 2. 수평 접근 권한 (Horizontal Access Control)
+### 수평 접근 권한 (Horizontal Access Control)
 수평 접근 권한은 수평적 권한을 가진 유저 사이는 접근 권한을 뜻한다.아래 다이어그램을 살펴보자. 동일한 레벨의 유저인 유저 A와 유저B 사이에도 접근이 제한된다. 즉, 한 사용자가 다른 사용자의 리소스에 접근하지 못하도록 하는 접근 제어 방식이다.
 
 <figure style="text-align:center;">
@@ -50,7 +50,7 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 
 따라서 수직 접근 권한은 상위 권한을 가진 사용자가 하위 권한을 가진 사용자의 데이터에 접근할 수 있도록 하여, 관리와 감독의 목적으로 사용되는 접근 제어 방식이며 수평 접근 권한은 동일한 권한을 가진 사용자들 간의 상호 접근을 제한함으로써, 사용자 간의 데이터를 보호하는 접근 제어 방식이다. 
 
-### 3. 문맥 종속 접근 권한 (Context-Dependent Access Control):
+### 문맥 종속 접근 권한 (Context-Dependent Access Control):
 
 마지막으로 문맥 종속 접근 권한은 사용자의 환경 또는 상황에 따라 접근을 제어한다. 예를 들어, 사용자가 특정 위치에 있거나 특정 시간에만 특정 자원에 액세스할 수 있도록 한다. 예를 들어 User A는 로그인 후 일정 시간이 지나면 이체 기능을 사용할 수 없게된다. 즉, 시간이라는 문맥에 종속되어 조건적으로 접근이 제한되게 된다. 
 
@@ -63,23 +63,23 @@ Broken Access Control 공격 기법을 설명하기 전에 일단 Access Control
 ## Access Control 보안 모델
 접근 제어 종류에 이어 접근 제어 보안 모델에 대해 알아보자. 접근 제어 모델은 간단히 말해 유저와 리소스간의 접근 제어를 어떻게 부여하고 관리할지에 대한 방법을 의미한다. 
 
-1. DAC (Discretionary Access Control)
+### DAC (Discretionary Access Control)
 DAC은 파일의 소유자가 직접 파일의 접근 권한을 제어하는 제어 모델이다. 
 
 > 예를 들어 유저 A가 생성한 파일에 대한 접근 권한은 유저 A가 제어 할 수 있다. 사용자 B에게 권한을 사용자 A가 생성한 파일을 사용자 B에게 읽기 권한을 주고, 사용자 C에게는 쓰기 권한을 준다.
 
 
-2. MAC (Mandatory Access Control)
+### MAC (Mandatory Access Control)
 MAC은 시스템이 전체적으로 접근 권한을 관리하고, 사용자는 이 권한을 변경할 수 없습니다. 
 
 > 예를 들어, 기밀 등급 문서에 대한 접근은 오직 기밀 등급 이상을 가진 사용자만 가능하며, 사용자는 자신의 보안 등급을 변경할 수 없다.
 
-3. RBAC (Role-Based Access Control)
+### RBAC (Role-Based Access Control)
 RBAC에서는 사용자의 역할(Role)에 따라 접근 권한이 부여된다. 
 
 > 예를 들어 회사 IT 부서에서 '관리자' 역할을 가진 사용자에게는 모든 시스템 설정 변경 권한이 부여되고, '일반 사용자' 역할을 가진 사용자에게는 데이터 조회 권한만 부여된다. 즉 역할 Role에 따라 접근 제어가 결정된다.
 
-4. ABAC (Attribute-Based Access Control)
+### ABAC (Attribute-Based Access Control)
 ABAC에서는 사용자, 자원, 환경에 대한 속성(Attributes)에 따라 접근 권한이 결정된다. 
 
 > 예를 들어, 은행 시스템에서 사용자는 평일 오전 9시에서 오후 5시 사이에만 계좌 이체를 할 수 있으며, 사용자는  오후 6시에 계좌 이체를 시도하면 접근이 거부된다.
@@ -147,7 +147,7 @@ Content-Length: 38
 
 ## Access Control 공격 기법 예시
 
-### 1.IDOR 변조
+### IDOR 변조
 - 목적: URL, ID등을 임의로 바꿔 권한이 없는 리소스에 접근
 - 공격 예시:
 
@@ -160,16 +160,14 @@ Host: www.redraccoon.kr
 - 성공시 200 OK: 요청이 성공적으로 처리되고, 다른 사용자의 프로필 정보가 노출
 - 실패시 403 Forbidden: 다른 유저 프로필 접근이 거부
 
-IDOR 관련 실전랩:
+**IDOR 관련 실전랩**:
 - Mongo IOR: 
 https://pentesterlab.com/exercises/mongo_idor/course
 
 - IDOR to Shell:
 https://pentesterlab.com/exercises/idor_to_shell/course
 
-
-
-### 2. useSuffixPatternMatch 활성화 취약 - (Spring Framework < 5.3 )
+### useSuffixPatternMatch 활성화 취약 - (Spring Framework < 5.3 )
 Spring 프레임워크 5.3 미만 버전에서 useSuffixPatternMatch 설정이 기본적으로 활성화되어 있을 경우 `/adminURL`에 매핑된 메서드가 `/adminURL[.].*` 패턴과도 일치하여 URL 필터를 우회할 수 있다.
 - 목적: URL의 서픽스 패턴 매칭을 통해 URL 우회를 시도 후 권한이 없는 리소스에 접근
 - 공격 예시:
@@ -184,7 +182,7 @@ Host: SpringApp
 - 성공시 200 OK: adminURL 접근 우회하여 adminURL 패널에 접근 가능.
 - 실패시 403 Forbidden: 접근 불가.
 
-### 3. 파라미터 조작 (Parameter tampering) 
+### 파라미터 조작 (Parameter tampering) 
 - 목적:파라미터 조작하여 권한 없는 리소스에 접근
 - 공격 예시:
 Referer를 통해 접근 제어를 하는 웹 서버의 경우 Referer 파라미터를 조작하여 높은 권한에 접근할 수 있다. 예를 들어,HTTP Request 헤더에 Referer 헤더에 admin URL을 포함시켜 마치 admin 권한이 요청하는 것처럼 위조할 수 있다.
@@ -221,18 +219,17 @@ Connection: close
 </html>
 ```
 
-파라미터 조작 관련 실전랩:
+**파라미터 조작 관련 실전랩**:
 - BurpSuite Academy Referer Parameter Tampering:
 https://portswigger.net/web-security/access-control/lab-referer-based-access-control
 
 
-## Broken Access Control 수정 및 권고사항
+## Broken Access Control 수정 및 (몇가지) 권고사항
 1. URL 및 링크 보안: IDOR(IDOR 변조) 공격을 방지하기 위해 URL이나 링크를 통해 민감한 데이터나 기능에 접근할 수 있는 링크를 공개적으로 노출하지 않도록 주의가 필요하다. 또한, 파라미터의 값이나 웹 요청 내용을 검증하여 유효한 권한을 가진 사용자만이 접근할 수 있어야 한다. 
 
 2. Session 토큰 및 Anti-CSRF 토큰 사용: Session 토큰과 Anti-CSRF 토큰을 사용하여 클라이언트 요청 변조를 미리 방지하여 접근 제어 공격을 차단한다. 
 
 3. Security Header: Content Security Policy(CSP) 및 X-Content-Type-Options와 같은 Security Header를 사용하여 위조된 요청을 차단한다.
-
 
 ## Broken Access Control 실전 랩
 - [TryHackMe OWASP Broken Access Control](https://tryhackme.com/r/room/owaspbrokenaccesscontrol)
