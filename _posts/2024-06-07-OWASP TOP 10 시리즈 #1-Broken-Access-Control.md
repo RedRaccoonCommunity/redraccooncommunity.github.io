@@ -9,7 +9,6 @@ toc_icon: "cog"
 title: "OWASP TOP 10 - Broken Access Control"
 categories:
   - web
-tags: [web,access]
 ---
 
 # Web Attack - Broken Access Control 1
