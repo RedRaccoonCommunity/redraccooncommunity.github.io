@@ -18,9 +18,10 @@ categories:
 **Broken access control** (잘못된 전급 제어)란 웹 애플리케이션이 사용자 접근 권한을 제대로 관리하지 못하는 경우 발생하는 웹 취약점이다. 예를 들어 인증된 사용자(Authenticated User)라고 할지라도 허가되지 않은 데이터나 기능에 접근할 수 있게 된다면 Broken, 즉 부러진(망가진? 잘못된? 부르고 싶은데로 부르자) 접근 제어 (Access Control)를 발생시킨다.
 
 간단히 말하면 유저가 웹 서비스 인증후(우리는 이걸 로그인이라 부른다)그 유저가 가진 고유의 접근 권한 외 허가되지 않은 다른 접근을 할 수 있게 된면 망가진 접근 제어라 할 수 있다.
+![](../assets/images/access_control.png)
 
 <figure style="text-align:center;">
-  <img src="../assets/images/access_control.png" alt="Your Image Alt Text" width="700">
+  <img src="../assets/images/access_control.png" width="700">
   <figcaption style="margin-top: 10px;">인증 후 유저는 리소스의 접근할 권한이 부여됨</figcaption>
 </figure>
 
