@@ -1,13 +1,13 @@
 ---
 layout: single
 author_profile: true
+
 toc: true
 toc_label: "목차"
 toc_icon: "cog"
 title: "OWASP TOP 10 - Broken Access Control"
-categories:
-  - web
 ---
+
 
 # Web Attack - Broken Access Control 1
 본 Web 어택 시리즈는 OWASP Top 10을 기반으로 한 10개의 웹 취약점 및 그에 따른 공격에 대해 하나씩 다룬다. 대부분 모의해커 커리어를 쌓으려면 Web 어택 기술은 기본이니 정확히 이해하고 현직 또는 인터뷰에서 잘 써먹길 바란다. 
