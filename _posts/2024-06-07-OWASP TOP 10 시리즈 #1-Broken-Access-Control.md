@@ -5,6 +5,13 @@ author_profile: true
 toc: true
 toc_label: "목차"
 toc_icon: "cog"
+
+title: "OWASP TOP 10 - Broken Access Control"
+categories:
+  - web
+tags:
+  - web
+  - access
 ---
 
 # Web Attack - Broken Access Control 1
