@@ -10,7 +10,7 @@ toc_icon: "cog"
 # Web Attack - Broken Access Control 1
 본 Web 어택 시리즈는 OWASP Top 10을 기반으로 한 10개의 웹 취약점 및 그에 따른 공격에 대해 하나씩 다룬다. 대부분 모의해커 커리어를 쌓으려면 Web 어택 기술은 기본이니 정확히 이해하고 현직 또는 인터뷰에서 잘 써먹길 바란다. 
 
-## Broken access control란?
+## Broken access control 이란?
 **Broken access control** (잘못된 전급 제어)란 웹 애플리케이션이 사용자 접근 권한을 제대로 관리하지 못하는 경우 발생하는 웹 취약점이다. 예를 들어 인증된 사용자(Authenticated User)라고 할지라도 허가되지 않은 데이터나 기능에 접근할 수 있게 된다면 Broken, 즉 부러진(망가진? 잘못된? 부르고 싶은데로 부르자) 접근 제어 (Access Control)를 발생시킨다.
 
 간단히 말하면 유저가 웹 서비스 인증후(우리는 이걸 로그인이라 부른다)그 유저가 가진 고유의 접근 권한 외 허가되지 않은 다른 접근을 할 수 있게 된면 망가진 접근 제어라 할 수 있다.
