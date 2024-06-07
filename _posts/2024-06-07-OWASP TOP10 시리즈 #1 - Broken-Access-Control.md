@@ -7,7 +7,7 @@ toc_label: "목차"
 toc_icon: "cog"
 ---
 
-# Web Attack - Broken Access Control Pentesting Guide 1
+# Web Attack - Broken Access Control 1
 본 Web 어택 시리즈는 OWASP Top 10을 기반으로 한 10개의 웹 취약점 및 그에 따른 공격에 대해 하나씩 다룬다. 대부분 모의해커 커리어를 쌓으려면 Web 어택 기술은 기본이니 정확히 이해하고 현직 또는 인터뷰에서 잘 써먹길 바란다. 
 
 ## Broken access control란?
@@ -148,7 +148,7 @@ Content-Length: 38
 
 
 
-### Access Control 공격 기법 예시
+## Access Control 공격 기법 예시
 
 ### 1.IDOR 변조
 - 목적: URL, ID등을 임의로 바꿔 권한이 없는 리소스에 접근
@@ -187,7 +187,7 @@ Host: SpringApp
 - 성공시 200 OK: adminURL 접근 우회하여 adminURL 패널에 접근 가능.
 - 실패시 403 Forbidden: 접근 불가.
 
-## 3. 파라미터 조작 (Parameter tampering) 
+### 3. 파라미터 조작 (Parameter tampering) 
 - 목적:파라미터 조작하여 권한 없는 리소스에 접근
 - 공격 예시:
 Referer를 통해 접근 제어를 하는 웹 서버의 경우 Referer 파라미터를 조작하여 높은 권한에 접근할 수 있다. 예를 들어,HTTP Request 헤더에 Referer 헤더에 admin URL을 포함시켜 마치 admin 권한이 요청하는 것처럼 위조할 수 있다.
@@ -229,7 +229,7 @@ Connection: close
 https://portswigger.net/web-security/access-control/lab-referer-based-access-control
 
 
-### Broken Access Control 수정 및 권고사항
+## Broken Access Control 수정 및 권고사항
 1. URL 및 링크 보안: IDOR(IDOR 변조) 공격을 방지하기 위해 URL이나 링크를 통해 민감한 데이터나 기능에 접근할 수 있는 링크를 공개적으로 노출하지 않도록 주의가 필요하다. 또한, 파라미터의 값이나 웹 요청 내용을 검증하여 유효한 권한을 가진 사용자만이 접근할 수 있어야 한다. 
 
 2. Session 토큰 및 Anti-CSRF 토큰 사용: Session 토큰과 Anti-CSRF 토큰을 사용하여 클라이언트 요청 변조를 미리 방지하여 접근 제어 공격을 차단한다. 
@@ -239,14 +239,13 @@ https://portswigger.net/web-security/access-control/lab-referer-based-access-con
 다음 포스트는 SSRF에 대해 다룬다. 
 
 
-### Broken Access Control 실전 랩
+## Broken Access Control 실전 랩
 - [TryHackMe OWASP Broken Access Control](https://tryhackme.com/r/room/owaspbrokenaccesscontrol)
 - [WebGoat Broken Access Control A1](https://github.com/WebGoat/WebGoat)
+- [DVWA Brute Force](https://github.com/digininja/DVWA)
 
-### 실제 Broken Access Control을 이용한 웹 취약점 사례
+## 실제 Broken Access Control을 이용한 웹 취약점 사례
 1. **Accessing to Data Sources of any Facebook Business account via IDOR in GraphQL**: https://medium.com/@mukundbhuva/accessing-the-data-sources-of-any-facebook-business-account-via-idor-in-graphql-1fc963ad3ecd
 
 2. **WordPress File Sharing Plugin IDOR Vulnerability**: https://www.recordedfuture.com/vulnerability-database/CVE-2023-4836
-
-
 
